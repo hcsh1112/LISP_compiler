@@ -1,5 +1,5 @@
 # LISP_compiler
-The project in the Programing Language course.
+The project in the Programing Language course. Code this project by java to avoid stack overflow.(Java will trigger garbage collection)
 
 ## LISP 
 More imformation in [LISP wiki](https://en.wikipedia.org/wiki/Lisp_(programming_language))
@@ -30,5 +30,8 @@ More imformation in [LISP wiki](https://en.wikipedia.org/wiki/Lisp_(programming_
             
 ## Parsing Tree
   * (1 . (2 . (3 . 4)))
+    * ![123.4](https://github.com/hcsh1112/LISP_compiler/blob/master/img/123.4.jpg)
   * (1 2 3 4)
+    * ![1234](https://github.com/hcsh1112/LISP_compiler/blob/master/img/1234.jpg)
   * ((1 2 3) . (4 . (5 . nil)))
+    * ![123_4.5](https://github.com/hcsh1112/LISP_compiler/blob/master/img/123_4.5.jpg)
